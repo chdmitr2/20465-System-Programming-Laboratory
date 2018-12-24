@@ -1,0 +1,21 @@
+
+The file "badpath-struct.as" was opened.
+
+ERROR. At line 13:	invalid characters ( parameter string must be enclosed in quotes.
+ERROR. At line 16:	Invalid characters "STRCT1".
+ERROR. At line 19:	Invalid characters "r3".
+ERROR. At line 22:	invalid characters ( parameter string must be enclosed in quotes.
+ERROR. At line 25:	Invalid characters ""1234"".
+ERROR. At line 28:	Undefined parameter.
+ERROR. At line 31:	No parameter for string in .struct.
+ERROR. At line 34:	No parameters.
+ERROR. At line 37:	Too many arguments.
+ERROR. At line 40:	invalid characters ( parameter string must be enclosed in quotes.
+ERROR. At line 43:	Struct field is illigal.
+ERROR. At line 43:	Invalid characters "STRCT1.3".
+ERROR. At line 52:	Invalid characters "STRCT1.1.2".
+ERROR. At line 55:	Invalid characters "STRCT1.r2".
+ERROR. At line 58:	Invalid characters "STRCT1.1 blabla".
+
+14 errors were found in first read the file "badpath-struct.as". The program is stopped
+
