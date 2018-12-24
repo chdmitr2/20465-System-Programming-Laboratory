@@ -1,0 +1,44 @@
+
+The file "badpath-pass1.as" was opened.
+
+ERROR. At line 7:	Missing operand.
+ERROR. At line 10:	Missing operand.
+ERROR. At line 13:	Missing operand.
+ERROR. At line 19:	Invalid operand. Destination operand for "add" command can't be a number.
+ERROR. At line 25:	Invalid operand. Destination operand for "inc" command can't be a number.
+ERROR. At line 28:	Undefined instruction as "and".
+ERROR. At line 31:	Undefined instruction as "jSr".
+ERROR. At line 37:	Invalid characters.
+ERROR. At line 40:	Invalid characters. Too many operands.
+ERROR. At line 43:	Invalid characters "r1 blabla".
+ERROR. At line 46:	Invalid characters "123".
+ERROR. At line 49:	Invalid characters "xyz".
+ERROR. At line 52:	Label previously declared.
+ERROR. At line 55:	label does not start in first column (optional error! label is ignored).
+ERROR. At line 58:	Invalid source operand. "lea" command must be a label.
+ERROR. At line 61:	Invalid source operand. "lea" command must be a label.
+ERROR. At line 64:	Invalid characters. Too many operands.
+ERROR. At line 67:	Invalid characters "200 400".
+ERROR. At line 73:	Empty parameter/n.
+ERROR. At line 76:	Do not write a comma after the last parameter.
+ERROR. At line 79:	Invalid characters "#123".
+ERROR. At line 82:	Invalid characters "12.4".
+ERROR. At line 85:	Invalid characters "--5".
+ERROR. At line 91:	"mov" Invalid label (cannot be an instruction).
+ERROR. At line 94:	"r1" is invalid label (cannot be a register).
+ERROR. At line 97:	Label previously declared.
+ERROR. At line 100:	"1DATA" is invalid label(non-alphabetic first character).
+[Warning] At line 106: The assembler ignored the label before the directive.
+ERROR. At line 109:	Label previously declared.
+[Warning] At line 112: The assembler ignored the label before the directive.
+ERROR. At line 121:	Undefined directive as "DATA".
+ERROR. At line 127:	invalid characters ( parameter string must be enclosed in quotes.
+ERROR. At line 130:	invalid characters ( parameter string must be enclosed in quotes.
+ERROR. At line 136:	invalid label (too long).
+ERROR. At line 139:	Missing argument in directive.
+ERROR. At line 142:	Missing argument in directive.
+ERROR. At line 145:	Undefined directive as "invalid".
+ERROR. At line 151:	Invalid characters. Too many operands.
+
+35 errors were found in first read the file "badpath-pass1.as". The program is stopped
+
