@@ -1,0 +1,10 @@
+
+The file "badpath-datasize_and_immedsize.as" was opened.
+
+ERROR. At line 13:	positive value "512" too large to fit in 10 bits.
+ERROR. At line 19:	negative value "-513" too large to fit in 10 bits.
+ERROR. At line 30:	positive immediate "128" too large to fit in 8 bits.
+ERROR. At line 36:	negative immediate "-129" too large to fit in 8 bits.
+
+4 errors were found in first read the file "badpath-datasize_and_immedsize.as". The program is stopped
+
