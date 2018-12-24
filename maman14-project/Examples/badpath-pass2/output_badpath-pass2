@@ -1,0 +1,19 @@
+
+The file "badpath-pass2.as" was opened.
+
+[Warning] At line 4: The assembler ignored the label before the directive.
+[Warning] At line 7: The assembler ignored the label before the directive.
+
+The first reading was successful. Errors not found.
+
+ERROR. At line 25:	No such label as "Q"/n.
+ERROR. At line 28:	No such label as "X"/n.
+ERROR. At line 31:	No such label as "Y"/n.
+ERROR. At line 13:	No such label as "Q"/n.
+ERROR. At line 16:	No such label as "Q"/n.
+ERROR. At line 19:	No such label as "X"/n.
+ERROR. At line 22:	No such label as "Y"/n.
+
+7 errors were found in second read the file "badpath-pass2.as". The program is stopped
+
+Files are compiled
