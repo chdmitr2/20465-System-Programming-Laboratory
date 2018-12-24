@@ -1,0 +1,182 @@
+Enter commands on the matrices:
+
+
+Undefined matrix name
+
+
+
+Unknown command name "do_it"
+
+
+Parameter not a real number
+
+
+
+Missing parameter
+
+
+
+Extraneous text at the end of command
+
+
+
+Invalid comma after command name
+
+
+Missing comma
+
+
+
+Multiple consecutive commas
+
+
+
+Extraneous text at the end of command
+
+
+
+Your matrix is ready
+
+
+Your matrix is ready
+
+
+Your matrix is ready
+
+
+Matrix MAT_A:
+
+
+      1       2       3       3 
+
+
+      4       5       6       7 
+
+
+      8       9       1       2 
+
+
+      3       4       5       6 
+
+
+Matrix MAT_B:
+
+
+      1    2.35   -7.89       0 
+
+
+      0       0       0       0 
+
+
+      0       0       0       0 
+
+
+      0       0       0       0 
+
+
+Matrix MAT_C:
+
+
+      1       2       3       4 
+
+
+      5       6       7       8 
+
+
+      9      10      11      12 
+
+
+     13      14      15      16 
+
+
+Adding operation completed successfully
+
+
+Matrix MAT_D:
+
+
+      2    4.35   -4.89       3 
+
+
+      4       5       6       7 
+
+
+      8       9       1       2 
+
+
+      3       4       5       6 
+
+
+Substraction operation completed successfully
+
+
+Matrix MAT_E:
+
+
+      0   0.346   -10.9      -3 
+
+
+     -4      -5      -6      -7 
+
+
+     -8      -9      -1      -2 
+
+
+     -3      -4      -5      -6 
+
+
+Multiplication operation completed successfully
+
+
+Matrix MAT_F:
+
+
+  -58.3   -62.8   -67.4   -71.9 
+
+
+      0       0       0       0 
+
+
+      0       0       0       0 
+
+
+      0       0       0       0 
+
+
+Multiplication in scalar operation completed successfully.
+
+
+Matrix MAT_A:
+
+
+   12.5      25    37.5    37.5 
+
+
+     50    62.5      75    87.5 
+
+
+    100     112    12.5      25 
+
+
+   37.5      50    62.5      75 
+
+
+Matrix transpose operation completed successfully.
+
+
+Matrix MAT_C:
+
+
+      1       5       9      13 
+
+
+      2       6      10      14 
+
+
+      3       7      11      15 
+
+
+      4       8      12      16 
+
+
+Program stopped by user request.

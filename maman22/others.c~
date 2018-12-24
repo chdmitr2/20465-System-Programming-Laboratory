@@ -1,0 +1,87 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+#include<stdlib.h>
+#include"mat.h"
+
+void get_parameters()
+{
+ int i,c,index=0,isMatrix=FALSE,parInt,tempInts;
+ char *par;
+ c='\0';
+ parameters.first=NULL;
+ parameters.second=NULL;
+ parameters.result=NULL;
+ matrixOK=TRUE;
+ while(c!='\n'&&c!=EOF)
+      {
+       par=psik();
+       for(i=0;i<6;i++)
+          {
+           if(*par==mats[i].name)
+              {
+               if(parameters.result!=NULL)
+                  {
+                   fprintf(stderr,"Too many matrixs\n");
+                   matrixOK=FALSE;
+                   return;
+                  }
+               if(*(par+1)!='\0')
+                  {
+                   fprintf(stderr,"Wrong matrix name!\n");
+                   matrixOK=FALSE;
+                   return;
+                  }
+               if(parameters.first==NULL)
+               parameters.first=(matrix*)(mats[i].mat);
+               else if(parameters.second==NULL)
+               parameters.second=(matrix*)(mats[i].mat);
+               else if(parameters.result==NULL)
+               parameters.result=(matrix*)(mats[i].mat);
+               isMatrix=TRUE;
+              }
+          }
+       if((i==12)&&(isMatrix!=TRUE)&&(isalpha(*par)))
+         {
+          fprintf(stderr,"Wrong matrix name!\n");
+          matrixOK=FALSE;
+          while(c!='\n')
+          c=getchar();
+          return;
+         }
+       if(!isMatrix)
+         {
+          tempInts=realloc(ints,(index+1)*sizeof(int));
+          if(tempInts!=NULL) ints=tempInts;
+          parInt=atof(par);
+          *(ints+index)=parInt;
+          index++;
+         }
+       isMatrix=FALSE;
+      }
+}
+
+char* psik()
+{
+ int i,c,j=0;
+ c=getchar();
+ for(i=0;isspace(c)&&c!='\n';i++)
+ c=getchar();
+ while(c!=','&&c!='\n'&&c!=' ')
+      {
+       ret[j++]=c;
+       c=getchar();
+      }
+ for(i=0;isspace(c)&&c!='\n';i++) c=getchar();
+ if(c==','|| c=='\n')
+   {
+    ret[j]='\0';
+   }
+ return ret;
+}
+ 
+
+   
+    
+
+
